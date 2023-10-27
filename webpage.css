@@ -240,11 +240,9 @@ img.campic,img.smilie,img.rain,img.img1{
 }
 /* tab screen */
 
-@media(max-width:768px){
+@media(max-width:1200px){
     .box1{
-        width:100%;
-    
-        
+        width:100%; 
     }
   .box2{
     width: 100%;
@@ -260,9 +258,52 @@ img.campic,img.smilie,img.rain,img.img1{
     .outer1{
         display: none;
     }
+   
+    p.secondheading{
+        color: black;
+        font-family:Footlight MT;
+        font-size:15px;
+        margin-right:0px;
+        padding: 0px;
     }
+    p.thirdheading{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .para4,.para7,.bottomlink,.contactinfo{
+        font-size: 12px;
+    }
+    .icon00{
+        margin: 0px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    .bp1,.bts1{
+        height: 80px;
+    }
+   .img{
+    width: 100%;
+   }
+   .inbox{
+    width: 100%;
+   } 
+   .inbox1{
+            padding-bottom: 0px;
+        }
     
-
-
-
+    .sec1{
+        margin: 20px;
+        padding: 0px;
+        }
+   
+    }
+    @media(max-width:460px){
+       a.link1{
+        display: inline;
+        padding: 0px;
+        margin: 0px;
+        font-size: 10px;
+    }  
+    
+    }
     
