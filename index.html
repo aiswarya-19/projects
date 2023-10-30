@@ -91,18 +91,14 @@
         </div>
     </div>
   </section>
-
-
-
-
 <section class="sec2" id="projects">
     <div data-aos="fade-up" data-aos-duration="1000">
         <div class="container-fluid">
             <h3 class="proj"> ____ PROJECTS ____ </h3>
             
 
-            <div class="inboxes" style="background-color:rgb(208, 201, 230);padding: 40px; border-radius: 10px;background-image: url(https://i.imgur.com/9k7SIoX.jpg);background-repeat: no-repeat;background-size: 100% auto;">
-                    <h3 class="show">Shopping Site using Django</h3>  
+            <div class="inboxes" style="padding: 40px; border-radius: 10px;background-image: url(https://i.imgur.com/9k7SIoX.jpg);background-repeat:repeat;background-size: 100% auto;">
+                <div data-aos="fade-right" data-aos-duration="800"><h3 class="show">Shopping Site using Django</h3> </div>
                         <div class="row">
                         
                           
@@ -111,7 +107,7 @@
                                 <div class="portimg">
                                        <a href="shopping.html">
                                         <div class="portin">
-                                           <img src="https://i.imgur.com/258J8Vm.png" alt="Cinque Terre" width="100%" class="img" height="200px">
+                                           <img src="https://i.imgur.com/258J8Vm.png" alt="Cinque Terre" width="100%" class="img" >
                                         </div>
                                        </a>
 
@@ -123,15 +119,15 @@
                 </div>
     
 
-        <div class="inboxes" style="background-color:rgb(208, 201, 230);padding: 40px; border-radius: 10px;background-image: url(https://i.imgur.com/9k7SIoX.jpg);background-size: 100% auto;">
-            <h3 class="show">Design Projects</h3>
+        <div class="inboxes" style="padding: 40px; border-radius: 10px;background-image: url(https://i.imgur.com/9k7SIoX.jpg);background-size: 120% auto;background-repeat:repeat;">
+            <div data-aos="fade-right" data-aos-duration="800"><h3 class="show">Design Projects</h3></div>
             <div class="row">          
                 <div data-aos="fade-up" data-aos-duration="1000">   
                     <div class="row">
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-duration="1000">
+                            <div data-aos="zoom-in" data-aos-duration="1000">
                                     <a href="index1.html">
-                                        <div><img src="https://i.imgur.com/n2cdCkQ.png" alt="Cinque Terre" width="100%" class="img" height="200px"></div>
+                                        <div><img src="https://i.imgur.com/n2cdCkQ.png" alt="Cinque Terre"  class="img"></div>
                                     </a>
                                 
                                 <p class="head2">Design Project 1</p>
@@ -139,9 +135,9 @@
                         </div>
 
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-duration="1000">         
+                            <div data-aos="zoom-in" data-aos-duration="1000">         
                                     <a href="index2.html">
-                                        <div><img src="https://i.imgur.com/yOJvW7S.png" alt="Cinque Terre" width="100%" class="img" height="200px"></div>
+                                        <div><img src="https://i.imgur.com/yOJvW7S.png" alt="Cinque Terre" class="img"></div>
                                     </a>
                                 <p class="head2">Design Project 2</p>
                             </div>   
@@ -149,18 +145,18 @@
                    
                    
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-duration="1000">                
+                            <div data-aos="zoom-in" data-aos-duration="1000">                
                                     <a href="student.html">
-                                        <div><img src="https://i.imgur.com/Zd1yW63.png" alt="Cinque Terre" width="100%" class="img" height="200px"></div>
+                                        <div><img src="https://i.imgur.com/Zd1yW63.png" alt="Cinque Terre"  class="img"></div>
                                     </a>                                 
                                 <p class="head2">Design Project 3</p>
                             </div>
                         </div> 
                         
                         <div class="col-md-4">
-                            <div data-aos="fade-up" data-aos-duration="1000">
+                            <div data-aos="zoom-in" data-aos-duration="1000">
                                     <a href="webpage.html">
-                                        <div><img src="https://i.imgur.com/29bJnqz.png" alt="Cinque Terre" width="100%" class="img" height="200px"></div>
+                                        <div><img src="https://i.imgur.com/29bJnqz.png" alt="Cinque Terre"  class="img" height="200px"></div>
                                     </a>
                                 <p class="head2">Design Project 4</p>
                             </div> 
@@ -169,12 +165,14 @@
                 </div>    
             </div>  
           
-               
-           
+                
             </div>
         </div>
     </div>  
 </section>
+
+
+
 
 <style>
      .banner{
@@ -376,7 +374,7 @@
 </style>
 
 <style>
-    @media (max-width:460px) and (min-width:0) {
+    @media (max-width:768px) and (min-width:0) {
         .mypic{
             width: 45%;
             margin-left: -5px;
@@ -386,10 +384,16 @@
         }
         .inboxes{
             margin: 0px;
-            background-repeat: repeat;
+            background-size: 200px;
+         
         }
         .img{
             margin: 0px;
+            height:100%;
+            width: 100%;
+        }
+        .show{
+        font-size:15px;
         }
     }
     @media (max-width:1200px) and (min-width:460px) {
@@ -412,14 +416,17 @@
         .inboxes{
             margin: 0px;
            padding: 0px;
+           background-repeat: repeat;
         }
         .img{
             margin: 0px;
+            height:100%;
+            width: 100%;
         }
+
     }
 
 </style>
-
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
